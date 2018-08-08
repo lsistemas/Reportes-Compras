@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Description />
+  <DataSet Name="DataSet_Compras">
+    <Query>
+      <DataSourceReference>ExtendVad10_PROD</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@FechaDesde">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+        </DataSetParameter>
+        <DataSetParameter Name="@fechaHasta">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+        </DataSetParameter>
+        <DataSetParameter Name="@Sucursal">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+        </DataSetParameter>
+        <DataSetParameter Name="@Departamento">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>SELECT     H.c_CODARTICULO AS c_codigo, P.c_departamento AS codigo_dpto, SUM(ISNULL(H.cant_COMP, 0)) AS Cantidad_Recibidas, SUM(ISNULL(H.valor_com, 0)) 
+                      AS Costo_Recepcion, SUM(ISNULL(H.cant_dev_COMP, 0)) AS Cant_Dev_Compras, SUM(ISNULL(H.valor_DEV_com, 0)) AS Costo_Dev_Compras, 
+                      SUM(ISNULL(H.cant_PROD, 0)) AS Cantidad_Producidas, SUM(ISNULL(H.valor_PROD, 0)) AS Costo_Produccion
+FROM         HistoricoDeCompras AS H INNER JOIN
+                      VAD10.dbo.MA_PRODUCTOS AS P ON H.c_CODARTICULO = P.C_CODIGO
+WHERE     (H.fecha BETWEEN @FechaDesde AND @fechaHasta) AND (H.Sucursal = @Sucursal) AND (H.c_CODARTICULO &lt;&gt; ' ')
+AND P.c_departamento IN (@Departamento)
+GROUP BY H.c_CODARTICULO, P.c_departamento</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Cantidad_Recibidas">
+        <DataField>Cantidad_Recibidas</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="c_codigo">
+        <DataField>c_codigo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="codigo_dpto">
+        <DataField>codigo_dpto</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Costo_Recepcion">
+        <DataField>Costo_Recepcion</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Cant_Dev_Compras">
+        <DataField>Cant_Dev_Compras</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Costo_Dev_Compras">
+        <DataField>Costo_Dev_Compras</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Cantidad_Producidas">
+        <DataField>Cantidad_Producidas</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Costo_Produccion">
+        <DataField>Costo_Produccion</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

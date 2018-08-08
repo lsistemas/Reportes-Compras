@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>VAD10_Prod</DataSourceReference>
+      <CommandText>SELECT DISTINCT 
+                      D.C_DESCRIPCIO AS DEPARTAMENTO, NR.C_CODIGO AS CODIGO_PRODUCTO, P.C_DESCRI AS PRODUCTO, 
+                      CASE WHEN NR.n_activo = 0 THEN 'NO' ELSE 'SI' END AS ACTIVO, CASE WHEN NR.n_activo = 0 THEN 1 ELSE 0 END AS CANTIDAD_INACTIVO
+FROM         (SELECT     TipoRegistro, C_CODIGO, n_activo, CONVERT(DATE, FechaCambio) AS FECHACAMBIO
+                       FROM          MA_PRODUCTOS_BitacoraCambio
+                       WHERE      (TipoRegistro = 'Antiguo Registro')) AS AR INNER JOIN
+                          (SELECT     TipoRegistro, C_CODIGO, n_activo, CONVERT(DATE, FechaCambio) AS FECHACAMBIO
+                            FROM          MA_PRODUCTOS_BitacoraCambio AS MA_PRODUCTOS_BitacoraCambio_1
+                            WHERE      (TipoRegistro = 'Nuevo Registro')) AS NR ON AR.C_CODIGO = NR.C_CODIGO AND AR.FECHACAMBIO = NR.FECHACAMBIO INNER JOIN
+                      MA_PRODUCTOS AS P ON NR.C_CODIGO = P.C_CODIGO INNER JOIN
+                      MA_DEPARTAMENTOS AS D ON P.c_departamento = D.C_CODIGO
+WHERE     (NR.FECHACAMBIO BETWEEN @FechaDesde AND @FechaHasta) AND (NR.n_activo = 0) AND (AR.n_activo = 1)</CommandText>
+    </Query>
+  </DataSet>
+</SharedDataSet>

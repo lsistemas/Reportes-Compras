@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="VAD10_Prod">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=VSRV-CG-DB01\CENTRAL;Initial Catalog=VAD10</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>9a17688a-48ec-4403-b151-336c37c0787e</DataSourceID>
+</RptDataSource>

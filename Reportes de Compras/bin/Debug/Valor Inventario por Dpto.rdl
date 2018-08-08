@@ -1,0 +1,3138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixCorner>
+          <TablixCornerRows>
+            <TablixCornerRow>
+              <TablixCornerCell>
+                <CellContents>
+                  <Textbox Name="Textbox155">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value />
+                            <Style />
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox155</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>LightGrey</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <RightBorder>
+                        <Color>Black</Color>
+                      </RightBorder>
+                      <BackgroundColor>White</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                  <ColSpan>2</ColSpan>
+                </CellContents>
+              </TablixCornerCell>
+              <TablixCornerCell />
+            </TablixCornerRow>
+            <TablixCornerRow>
+              <TablixCornerCell>
+                <CellContents>
+                  <Textbox Name="Textbox82">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>CODIGO</Value>
+                            <Style>
+                              <FontWeight>Bold</FontWeight>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Center</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox82</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#00b050</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixCornerCell>
+              <TablixCornerCell>
+                <CellContents>
+                  <Textbox Name="Textbox83">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>DESCRIPCION</Value>
+                            <Style>
+                              <FontWeight>Bold</FontWeight>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Center</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox83</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#00b050</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixCornerCell>
+            </TablixCornerRow>
+          </TablixCornerRows>
+        </TablixCorner>
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.00271cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.18792cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.08208cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.34667cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.21438cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.8175cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.51957cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.49813cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.50542cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.34667cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox28">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!Valor_UC.Value, "DataSet_StockInicial"))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox29">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!stock.Value, "DataSet_StockInicial"))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox10</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox34">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=IIf(Variables!RVG_VEN_INI.Value=0,0,round((Variables!RVG_STOCK_INI.Value/(Variables!RVG_VEN_INI.Value/Variables!V_PAI.Value)),2))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox10</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox30">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=IIf(isnothing(Variables!RVG_STOCK_INI.Value) OR Variables!RVG_STOCK_INI.Value=0,0,ROUND((Variables!RVG_STOCK_INI.Value/Sum(Fields!stock.Value, "DataSet_StockInicial"))*(100),2))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox12</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox98">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=IIf(isnothing(Variables!RVG_STOCK_INI.Value) OR Variables!RVG_STOCK_INI.Value=0,0,ROUND((Variables!RVG_Valor_UC_INI.Value/Sum(Fields!Valor_UC.Value, "DataSet_StockInicial"))*100,2))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox98</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox101">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!TOTALCompra.Value, "DataSet_IndiceCompra"))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox101</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox104">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!UnidadesCompra.Value, "DataSet_IndiceCompra"))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox104</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox127">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!TotalCostoVenta.Value, "DataSet_IndiceCompra"))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox101</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox128">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!TotalVentasL.Value, "DataSet_IndiceCompra"))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox104</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox135">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!unidadesVenta.Value, "DataSet_IndiceCompra"))</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox135</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox139">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!UTILIDAD.Value, "DataSet_IndiceCompra"))</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox139</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox143">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!PorUtilidad.Value, "DataSet_IndiceCompra"))</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox143</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox147">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!IndiceComVen.Value, "DataSet_IndiceCompra"))</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox147</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="stock4">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!Valor_UC.Value)</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>stock</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox21">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!stock.Value)</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox16</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox24">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=IIf(Variables!RVG_unid_ven.Value=0,0,round((sum(Fields!stock.Value)/(Variables!RVG_unid_ven.Value/Variables!V_PA.Value)),2))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox16</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox23">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=IIF(isNothing(Sum(Fields!stock.Value)),0,round((Sum(Fields!stock.Value)/Sum(Fields!stock.Value, "DataSet_StockFinal"))*100,2))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox18</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox25">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=IIF(isnothing(Sum(Fields!stock.Value)),0,round((Sum(Fields!Valor_UC.Value)/Sum(Fields!Valor_UC.Value, "DataSet_StockFinal"))*100,2))</Value>
+                              <Style>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox18</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox245">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!Valor_UC.Value, "DataSet_StockInicial")</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox245</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox246">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!stock.Value, "DataSet_StockInicial")</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox246</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox249">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=round((Sum(Fields!stock.Value, "DataSet_StockInicial")/(Sum(Fields!unidadesVenta.Value, "DataSet_IndiceCompraInicial")/Variables!V_PAI.Value)),2)</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox246</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox15">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox15</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox250">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!TOTALCompra.Value, "DataSet_IndiceCompra")</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox250</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox251">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!UnidadesCompra.Value, "DataSet_IndiceCompra")</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox251</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox252">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!TotalCostoVenta.Value, "DataSet_IndiceCompra")</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox252</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox253">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!TotalVentasL.Value, "DataSet_IndiceCompra")</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox253</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox136">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!unidadesVenta.Value, "DataSet_IndiceCompra")</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox136</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox140">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!UTILIDAD.Value, "DataSet_IndiceCompra")</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox140</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox144">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=round((Sum(Fields!UTILIDAD.Value, "DataSet_IndiceCompra")/Sum(Fields!TotalVentasL.Value, "DataSet_IndiceCompra"))*100,2)</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox144</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox148">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=round(Sum(Fields!TOTALCompra.Value, "DataSet_IndiceCompra")/Sum(Fields!TotalCostoVenta.Value, "DataSet_IndiceCompra"),2)</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox148</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#d9d9d9</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Valor_UC1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!Valor_UC.Value)</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Valor_UC1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="stock">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!stock.Value)</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>stock</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="stock1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=round((Sum(Fields!stock.Value)/(Sum(Fields!unidadesVenta.Value, "DataSet_IndiceCompra")/Variables!V_PA.Value)),2)</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Format>#,0.00</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>stock1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox149">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox149</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox150">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox150</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>White</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <TablixHeader>
+                <Size>0.6cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox1">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>INVENTARIO PERIODO ANTERIOR</Value>
+                            <Style>
+                              <FontWeight>Bold</FontWeight>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Center</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox1</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#00b050</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox84">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>INVENTARIO (Bs)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox84</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox85">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value EvaluationMode="Constant">INVENTARIO (UND)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox85</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox88">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>DIAS INVENTARIO</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox85</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox86">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>PARTICIPACION UNIDADES (%)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox86</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox87">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>PARTICIPACION Bs (%)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox86</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <Visibility>
+                    <Hidden>true</Hidden>
+                  </Visibility>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+            <TablixMember>
+              <TablixHeader>
+                <Size>0.6cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox99">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>INDICE DE COMPRA - VENTA</Value>
+                            <Style>
+                              <FontWeight>Bold</FontWeight>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Center</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox99</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#00b050</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox100">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>MONTO DE COMPRA</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox100</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox103">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>UNIDADES COMPRA</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox103</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox106">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>COSTO DE VENTA</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox106</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox109">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>MONTO DE VENTA</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox109</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox134">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>UNIDADES DE VENTA</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox134</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox138">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>UTILIDAD (Bs)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox138</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox142">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>UTILIDAD (%)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox142</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox146">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>INDICE</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox146</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+            <TablixMember>
+              <TablixHeader>
+                <Size>0.6cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox2">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>INVENTARIO FINAL</Value>
+                            <Style>
+                              <FontWeight>Bold</FontWeight>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Center</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox2</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#00b050</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox93">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>INVENTARIO (Bs)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox84</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox96">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>INVENTARIO (UND)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox85</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox102">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>DIAS INVENTARIO</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox94</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox105">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>PARTICIPACION UNIDADES (%)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox86</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.6cm</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox108">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>PARTICIPACION Bs (%)</Value>
+                                <Style>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox97</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#00b050</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="codigo_dpto">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!codigo_dpto.Value</GroupExpression>
+                </GroupExpressions>
+                <Variables>
+                  <Variable Name="RVG_IR">
+                    <Value>=IIf( ROUND((Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!Valor_UC.Value, "DataSet_StockInicial"))+sum(Fields!Valor_UC.Value)),2)=0,0,ROUND(IIf((Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!Valor_UC.Value, "DataSet_StockInicial"))+sum(Fields!Valor_UC.Value))=0,0,(Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!Valor_UC.Value, "DataSet_StockInicial"))+Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!Costo_Recepcion.Value, "DataSet_Compras"))+Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!Costo_Produccion.Value, "DataSet_Compras"))-Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!Costo_Dev_Compras.Value, "DataSet_Compras"))-SUM(Fields!Valor_UC.Value))/((Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!Valor_UC.Value, "DataSet_StockInicial"))+SUM(Fields!Valor_UC.Value))/2)),2))</Value>
+                  </Variable>
+                  <Variable Name="RVG_STOCK_INI">
+                    <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!stock.Value, "DataSet_StockInicial"))</Value>
+                  </Variable>
+                  <Variable Name="RVG_VEN_INI">
+                    <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!unidadesVenta.Value, "DataSet_IndiceCompraInicial"))</Value>
+                  </Variable>
+                  <Variable Name="RVG_Valor_UC_INI">
+                    <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!Valor_UC.Value, "DataSet_StockInicial"))</Value>
+                  </Variable>
+                  <Variable Name="RVG_unid_ven">
+                    <Value>=Code.AggLookup("sum", LookupSet(Fields!codigo_dpto.Value, Fields!codigo_dpto.Value, Fields!unidadesVenta.Value, "DataSet_IndiceCompra"))</Value>
+                  </Variable>
+                </Variables>
+              </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!dpto.Value</Value>
+                </SortExpression>
+              </SortExpressions>
+              <TablixHeader>
+                <Size>2.5cm</Size>
+                <CellContents>
+                  <Textbox Name="codigo_dpto">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=Fields!codigo_dpto.Value</Value>
+                            <Style />
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>codigo_dpto</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>White</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="dpto">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!dpto.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!dpto.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <TablixHeader>
+                    <Size>5.27812cm</Size>
+                    <CellContents>
+                      <Textbox Name="dpto">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>=Fields!dpto.Value</Value>
+                                <Style />
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>dpto</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>White</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+            <TablixMember>
+              <TablixHeader>
+                <Size>7.77812cm</Size>
+                <CellContents>
+                  <Textbox Name="Textbox243">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>Total</Value>
+                            <Style>
+                              <FontWeight>Bold</FontWeight>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style>
+                          <TextAlign>Right</TextAlign>
+                        </Style>
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox243</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>White</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <KeepWithGroup>Before</KeepWithGroup>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet_StockFinal</DataSetName>
+        <Top>5.52662cm</Top>
+        <Left>0.26141cm</Left>
+        <Height>2.4cm</Height>
+        <Width>59.29917cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Textbox Name="textbox1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Indice Compra Ventas - Inventario. Por</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <Color>#365838</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Departamento</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <Color>#365838</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>0.29527cm</Top>
+        <Left>0.26141cm</Left>
+        <Height>0.45841in</Height>
+        <Width>5.22867in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="textbox2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Rango de Análisis</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <Color>#365838</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>0.29527cm</Top>
+        <Left>16.73016cm</Left>
+        <Height>0.45841in</Height>
+        <Width>2.531in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="textbox3">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=CStr(FORMAT(Parameters!FechaDesde.Value, "dd/MM/yyyy"))+" al " +CStr(FORMAT(Parameters!fechaHasta.Value, "dd/MM/yyyy"))</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <Format>dd/MM/yyyy</Format>
+                  <Color>#365838</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>1.77712cm</Top>
+        <Left>16.73016cm</Left>
+        <Height>0.23611in</Height>
+        <Width>2.531in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="textbox9">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Sucursal </Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>#365838</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>1.77712cm</Top>
+        <Left>0.26141cm</Left>
+        <Height>0.23611in</Height>
+        <Width>0.98425in</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="textbox10">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Lookup(Parameters!Sucursal.Value, Fields!codigo_sucursal.Value, Fields!sucursal.Value, "DataSet_Sucursal")</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>#365838</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>1.77712cm</Top>
+        <Left>2.76141cm</Left>
+        <Height>0.23611in</Height>
+        <Width>4.24442in</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>3.19792in</Height>
+    <Style />
+  </Body>
+  <Width>30.89089in</Width>
+  <Page>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="ExtendVAD10">
+      <DataSourceReference>ExtendVad10_PROD</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>ef56fad3-c7d2-4abf-9975-7bedff8073c6</rd:DataSourceID>
+    </DataSource>
+    <DataSource Name="VAD10">
+      <DataSourceReference>VAD10_Prod</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>e0dd0681-8d72-4f36-9a03-8449575d6eef</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_StockInicial">
+      <Query>
+        <DataSourceName>ExtendVAD10</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@FechaDesde">
+            <Value>=Parameters!FechaDesde.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@Sucursal">
+            <Value>=Parameters!Sucursal.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT        e.Fecha, e.c_codarticulo, p.C_DESCRI AS producto, p.c_departamento AS codigo_dpto, d.dpto, g.codigo_grupo, g.grupo, s.codigo_subgrupo, s.subgrupo, 
+                         co.Costo_Actual, co.Costo_Promedio, SUM(e.Existencia) AS stock, SUM(e.Existencia) * co.Costo_Actual AS Valor_UC, SUM(e.Existencia) 
+                         * co.Costo_Promedio AS Valor_CP
+FROM            HistoricoExistencia AS e INNER JOIN
+                         VAD10.dbo.MA_PRODUCTOS AS p ON e.c_codarticulo = p.C_CODIGO INNER JOIN
+                             (SELECT        C_CODIGO AS codigo_dpto, C_DESCRIPCIO AS dpto
+                               FROM            VAD10.dbo.MA_DEPARTAMENTOS
+                               UNION
+                               SELECT        ' ' AS codigo_dpto, 'SIN DEPARTAMENTO' AS dpto) AS d ON p.c_departamento = d.codigo_dpto INNER JOIN
+                             (SELECT        c_CODIGO AS codigo_grupo, C_DESCRIPCIO AS grupo, c_departamento AS codigo_dpto
+                               FROM            VAD10.dbo.MA_GRUPOS
+                               UNION
+                               SELECT        ' ' AS codigo_grupo, 'SIN GRUPO' AS grupo, ' ' AS codigo_dpto) AS g ON p.c_grupo = g.codigo_grupo LEFT OUTER JOIN
+                             (SELECT        c_CODIGO AS codigo_subgrupo, c_DESCRIPCIO AS subgrupo, c_in_grupo AS codigo_grupo, c_in_departamento AS codigo_dpto
+                               FROM            VAD10.dbo.MA_SUBGRUPOS
+                               UNION
+                               SELECT        ' ' AS codigo_subgrupo, 'SIN SUBGRUPO' AS subgrupo, ' ' AS codigo_grupo, ' ' AS codigo_dpto) AS s ON p.c_subgrupo = s.codigo_subgrupo AND 
+                         p.c_departamento = s.codigo_dpto AND p.c_grupo = s.codigo_grupo INNER JOIN
+                             (SELECT        Fecha, c_codigo, ISNULL(CostoA, 0) AS Costo_Actual, ISNULL(CostoR, 0) AS Costo_Reposicion, ISNULL(CostoPromedio, 0) AS Costo_Promedio
+                               FROM            HistoricoCostoPrecio
+                               WHERE        (Fecha = DATEADD(DAY, - 1, @FechaDesde))) AS co ON p.C_CODIGO = co.c_codigo
+WHERE        (e.Fecha = DATEADD(DAY, - 1, @FechaDesde)) AND (e.c_sucursal = @Sucursal)
+GROUP BY e.Fecha, e.c_codarticulo, p.C_DESCRI, p.c_departamento, d.dpto, g.codigo_grupo, g.grupo, s.codigo_subgrupo, s.subgrupo, co.Costo_Actual, co.Costo_Promedio</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Fecha">
+          <DataField>Fecha</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="c_codarticulo">
+          <DataField>c_codarticulo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="producto">
+          <DataField>producto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="codigo_dpto">
+          <DataField>codigo_dpto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dpto">
+          <DataField>dpto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="codigo_grupo">
+          <DataField>codigo_grupo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="grupo">
+          <DataField>grupo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="codigo_subgrupo">
+          <DataField>codigo_subgrupo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="subgrupo">
+          <DataField>subgrupo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="stock">
+          <DataField>stock</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Costo_Actual">
+          <DataField>Costo_Actual</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Costo_Promedio">
+          <DataField>Costo_Promedio</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Valor_UC">
+          <DataField>Valor_UC</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Valor_CP">
+          <DataField>Valor_CP</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DataSet_StockFinal">
+      <Query>
+        <DataSourceName>ExtendVAD10</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@fechaHasta">
+            <Value>=Parameters!fechaHasta.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@Sucursal">
+            <Value>=Parameters!Sucursal.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT        e.Fecha, e.c_codarticulo, p.C_DESCRI AS producto, p.c_departamento AS codigo_dpto, d.dpto, g.codigo_grupo, g.grupo, s.codigo_subgrupo, s.subgrupo, 
+                         co.Costo_Actual, co.Costo_Promedio, SUM(e.Existencia) AS stock, SUM(e.Existencia) * co.Costo_Actual AS Valor_UC, SUM(e.Existencia) 
+                         * co.Costo_Promedio AS Valor_CP
+FROM            HistoricoExistencia AS e INNER JOIN
+                         VAD10.dbo.MA_PRODUCTOS AS p ON e.c_codarticulo = p.C_CODIGO INNER JOIN
+                             (SELECT        C_CODIGO AS codigo_dpto, C_DESCRIPCIO AS dpto
+                               FROM            VAD10.dbo.MA_DEPARTAMENTOS
+                               UNION
+                               SELECT        ' ' AS codigo_dpto, 'SIN DEPARTAMENTO' AS dpto) AS d ON p.c_departamento = d.codigo_dpto INNER JOIN
+                             (SELECT        c_CODIGO AS codigo_grupo, C_DESCRIPCIO AS grupo, c_departamento AS codigo_dpto
+                               FROM            VAD10.dbo.MA_GRUPOS
+                               UNION
+                               SELECT        ' ' AS codigo_grupo, 'SIN GRUPO' AS grupo, ' ' AS codigo_dpto) AS g ON p.c_grupo = g.codigo_grupo LEFT OUTER JOIN
+                             (SELECT        c_CODIGO AS codigo_subgrupo, c_DESCRIPCIO AS subgrupo, c_in_grupo AS codigo_grupo, c_in_departamento AS codigo_dpto
+                               FROM            VAD10.dbo.MA_SUBGRUPOS
+                               UNION
+                               SELECT        ' ' AS codigo_subgrupo, 'SIN SUBGRUPO' AS subgrupo, ' ' AS codigo_grupo, ' ' AS codigo_dpto) AS s ON p.c_subgrupo = s.codigo_subgrupo AND 
+                         p.c_departamento = s.codigo_dpto AND p.c_grupo = s.codigo_grupo INNER JOIN
+                             (SELECT        Fecha, c_codigo, ISNULL(CostoA, 0) AS Costo_Actual, ISNULL(CostoR, 0) AS Costo_Reposicion, ISNULL(CostoPromedio, 0) AS Costo_Promedio
+                               FROM            HistoricoCostoPrecio
+                               WHERE        (Fecha = @fechaHasta)) AS co ON p.C_CODIGO = co.c_codigo
+WHERE        (e.Fecha = @fechaHasta) AND (e.c_sucursal = @Sucursal)
+GROUP BY e.Fecha, e.c_codarticulo, p.C_DESCRI, p.c_departamento, d.dpto, g.codigo_grupo, g.grupo, s.codigo_subgrupo, s.subgrupo, co.Costo_Actual, co.Costo_Promedio</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Fecha">
+          <DataField>Fecha</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="c_codarticulo">
+          <DataField>c_codarticulo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="producto">
+          <DataField>producto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="codigo_dpto">
+          <DataField>codigo_dpto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dpto">
+          <DataField>dpto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="codigo_grupo">
+          <DataField>codigo_grupo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="grupo">
+          <DataField>grupo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="codigo_subgrupo">
+          <DataField>codigo_subgrupo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="subgrupo">
+          <DataField>subgrupo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="stock">
+          <DataField>stock</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Costo_Actual">
+          <DataField>Costo_Actual</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Costo_Promedio">
+          <DataField>Costo_Promedio</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Valor_UC">
+          <DataField>Valor_UC</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Valor_CP">
+          <DataField>Valor_CP</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DataSet_Compras">
+      <Query>
+        <DataSourceName>ExtendVAD10</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@FechaDesde">
+            <Value>=Parameters!FechaDesde.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@fechaHasta">
+            <Value>=Parameters!fechaHasta.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@Sucursal">
+            <Value>=Parameters!Sucursal.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT     H.c_CODARTICULO AS c_codigo, P.c_departamento AS codigo_dpto, SUM(ISNULL(H.cant_COMP, 0)) AS Cantidad_Recibidas, SUM(ISNULL(H.valor_com, 0)) 
+                      AS Costo_Recepcion, SUM(ISNULL(H.cant_dev_COMP, 0)) AS Cant_Dev_Compras, SUM(ISNULL(H.valor_DEV_com, 0)) AS Costo_Dev_Compras, 
+                      SUM(ISNULL(H.cant_PROD, 0)) AS Cantidad_Producidas, SUM(ISNULL(H.valor_PROD, 0)) AS Costo_Produccion
+FROM         HistoricoDeCompras AS H INNER JOIN
+                      VAD10.dbo.MA_PRODUCTOS AS P ON H.c_CODARTICULO = P.C_CODIGO
+WHERE     (H.fecha BETWEEN @FechaDesde AND @fechaHasta) AND (H.Sucursal = @Sucursal) AND (H.c_CODARTICULO &lt;&gt; ' ')
+GROUP BY H.c_CODARTICULO, P.c_departamento</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Cantidad_Recibidas">
+          <DataField>Cantidad_Recibidas</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="c_codigo">
+          <DataField>c_codigo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="codigo_dpto">
+          <DataField>codigo_dpto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Costo_Recepcion">
+          <DataField>Costo_Recepcion</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Cant_Dev_Compras">
+          <DataField>Cant_Dev_Compras</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Costo_Dev_Compras">
+          <DataField>Costo_Dev_Compras</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Cantidad_Producidas">
+          <DataField>Cantidad_Producidas</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Costo_Produccion">
+          <DataField>Costo_Produccion</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DataSet_Sucursal">
+      <Query>
+        <DataSourceName>VAD10</DataSourceName>
+        <CommandText>SELECT        C_codigo AS codigo_sucursal, c_descripcion AS sucursal
+FROM            MA_SUCURSALES</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="codigo_sucursal">
+          <DataField>codigo_sucursal</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="sucursal">
+          <DataField>sucursal</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DataSet_IndiceCompra">
+      <Query>
+        <DataSourceName>VAD10</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@FechaDesde">
+            <Value>=Parameters!FechaDesde.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@fechaHasta">
+            <Value>=Parameters!fechaHasta.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@Sucursal">
+            <Value>=Parameters!Sucursal.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT     c_departamento AS codigo_dpto, C_DESCRIPCIO AS departamento, SUM(CostoVenta) AS TotalCostoVenta, SUM(UTILIDAD) AS UTILIDAD, SUM(TotalVentasL) 
+                      AS TotalVentasL, SUM(unidadesVenta) AS unidadesVenta, SUM(TOTALCompra) AS TOTALCompra, SUM(UnidadesCompra) AS UnidadesCompra, CASE SUM(CostoVenta) 
+                      WHEN 0 THEN 0 ELSE SUM(TOTALCompra) / SUM(CostoVenta) END AS IndiceComVen, CASE SUM(TotalVentasL) WHEN 0 THEN 0 ELSE SUM(UTILIDAD) 
+                      / SUM(TotalVentasL) * 100 END AS PorUtilidad
+FROM         (SELECT     MA_PRODUCTOS.c_departamento, MA_DEPARTAMENTOS.C_DESCRIPCIO, SUM((TR_INVENTARIO.n_COSTO * TR_INVENTARIO.n_CANTIDAD) 
+                                              * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor)) AS CostoVenta, SUM(((TR_INVENTARIO.n_TOTAL - TR_INVENTARIO.n_IMPUESTO) 
+                                              - TR_INVENTARIO.n_COSTO * TR_INVENTARIO.n_CANTIDAD) * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor)) AS UTILIDAD, 
+                                              SUM((TR_INVENTARIO.n_TOTAL - TR_INVENTARIO.n_IMPUESTO) * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor)) AS TotalVentasL, 
+                                              SUM(TR_INVENTARIO.n_CANTIDAD) AS unidadesVenta, 0 AS TOTALCompra, 0 AS UnidadesCompra
+                       FROM          TR_INVENTARIO AS TR_INVENTARIO LEFT OUTER JOIN
+                                              MA_VENTAS AS MA_VENTAS ON MA_VENTAS.c_DOCUMENTO = TR_INVENTARIO.c_DOCUMENTO AND 
+                                              MA_VENTAS.c_CONCEPTO = TR_INVENTARIO.c_CONCEPTO LEFT OUTER JOIN
+                                              MA_MONEDAS AS MA_MONEDAS ON MA_MONEDAS.c_codmoneda = '0000000002' LEFT OUTER JOIN
+                                              MA_PRODUCTOS ON MA_PRODUCTOS.C_CODIGO = TR_INVENTARIO.c_CODARTICULO LEFT OUTER JOIN
+                                              MA_DEPARTAMENTOS ON MA_PRODUCTOS.c_departamento = MA_DEPARTAMENTOS.C_CODIGO
+                       WHERE      (TR_INVENTARIO.c_CONCEPTO = 'VEN') AND (TR_INVENTARIO.n_SUBTOTAL &gt;= 0) AND (TR_INVENTARIO.f_fecha BETWEEN @FechaDesde AND 
+                                              @fechaHasta) AND (TR_INVENTARIO.c_codlocalidad = @Sucursal)
+                       GROUP BY MA_PRODUCTOS.c_departamento, MA_DEPARTAMENTOS.C_DESCRIPCIO
+                       UNION
+                       SELECT     MA_PRODUCTOS_3.c_departamento, MA_DEPARTAMENTOS_3.C_DESCRIPCIO, - (1 * SUM((TR_INVENTARIO.n_COSTO * TR_INVENTARIO.n_CANTIDAD) 
+                                             * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor))) AS CostoVenta, - (1 * SUM(((TR_INVENTARIO.n_TOTAL - TR_INVENTARIO.n_IMPUESTO) 
+                                             - TR_INVENTARIO.n_COSTO * TR_INVENTARIO.n_CANTIDAD) * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor))) AS UTILIDAD, 
+                                             - (1 * SUM((TR_INVENTARIO.n_TOTAL - TR_INVENTARIO.n_IMPUESTO) * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor))) AS TotalVentasL, 
+                                             - (1 * SUM(TR_INVENTARIO.n_CANTIDAD)) AS unidadesVenta, 0 AS TOTALCompra, 0 AS UnidadesCompra
+                       FROM         TR_INVENTARIO AS TR_INVENTARIO LEFT OUTER JOIN
+                                             MA_VENTAS AS MA_VENTAS ON MA_VENTAS.c_DOCUMENTO = TR_INVENTARIO.c_DOCUMENTO AND 
+                                             MA_VENTAS.c_CONCEPTO = TR_INVENTARIO.c_CONCEPTO LEFT OUTER JOIN
+                                             MA_MONEDAS AS MA_MONEDAS ON MA_MONEDAS.c_codmoneda = '0000000002' LEFT OUTER JOIN
+                                             MA_PRODUCTOS AS MA_PRODUCTOS_3 ON MA_PRODUCTOS_3.C_CODIGO = TR_INVENTARIO.c_CODARTICULO LEFT OUTER JOIN
+                                             MA_DEPARTAMENTOS AS MA_DEPARTAMENTOS_3 ON MA_PRODUCTOS_3.c_departamento = MA_DEPARTAMENTOS_3.C_CODIGO
+                       WHERE     (TR_INVENTARIO.c_CONCEPTO = 'DEV') AND (TR_INVENTARIO.n_CANTIDAD &gt; 0) AND (TR_INVENTARIO.f_fecha BETWEEN @FechaDesde AND 
+                                             @fechaHasta) AND (TR_INVENTARIO.c_codlocalidad = @Sucursal)
+                       GROUP BY MA_PRODUCTOS_3.c_departamento, MA_DEPARTAMENTOS_3.C_DESCRIPCIO
+                       UNION
+                       SELECT     MA_PRODUCTOS_2.c_departamento, MA_DEPARTAMENTOS_2.C_DESCRIPCIO, 0 AS TotalCostoVenta, 0 AS utilidad, 0 AS totalventa, 0 AS UnidadesVenta, 
+                                             SUM((TR_INVENTARIO.n_COSTO * (CASE TR_INVENTARIO.N_CANT_TEORICA WHEN TR_INVENTARIO.N_CANTIDAD THEN 0 ELSE TR_INVENTARIO.N_CANTIDAD
+                                              END + TR_INVENTARIO.n_cant_teorica)) * (MA_COMPRAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor)) AS TOTALCompra, 
+                                             SUM(CASE TR_INVENTARIO.N_CANT_TEORICA WHEN TR_INVENTARIO.N_CANTIDAD THEN 0 ELSE TR_INVENTARIO.N_CANTIDAD END + TR_INVENTARIO.n_cant_teorica)
+                                              AS UnidadesCompra
+                       FROM         TR_INVENTARIO AS TR_INVENTARIO LEFT OUTER JOIN
+                                             MA_MONEDAS AS MA_MONEDAS ON MA_MONEDAS.c_codmoneda = '0000000002' INNER JOIN
+                                             MA_COMPRAS ON MA_COMPRAS.c_DOCUMENTO = TR_INVENTARIO.c_DOCUMENTO AND 
+                                             TR_INVENTARIO.c_CONCEPTO = MA_COMPRAS.C_CONCEPTO LEFT OUTER JOIN
+                                             MA_PRODUCTOS AS MA_PRODUCTOS_2 ON MA_PRODUCTOS_2.C_CODIGO = TR_INVENTARIO.c_CODARTICULO LEFT OUTER JOIN
+                                             MA_DEPARTAMENTOS AS MA_DEPARTAMENTOS_2 ON MA_PRODUCTOS_2.c_departamento = MA_DEPARTAMENTOS_2.C_CODIGO
+                       WHERE     (TR_INVENTARIO.c_CONCEPTO = 'COM') AND (TR_INVENTARIO.f_fecha BETWEEN @FechaDesde AND @fechaHasta) AND 
+                                             (TR_INVENTARIO.c_codlocalidad = @Sucursal)
+                       GROUP BY MA_PRODUCTOS_2.c_departamento, MA_DEPARTAMENTOS_2.C_DESCRIPCIO
+                       UNION
+                       SELECT     MA_PRODUCTOS_1.c_departamento, MA_DEPARTAMENTOS_1.C_DESCRIPCIO, 0 AS TotalCostoVenta, 0 AS utilidad, 0 AS totalventa, 0 AS UnidadesVenta, 
+                                             - (1 * SUM((TR_INVENTARIO.n_COSTO * (CASE TR_INVENTARIO.N_CANT_TEORICA WHEN TR_INVENTARIO.N_CANTIDAD THEN 0 ELSE TR_INVENTARIO.N_CANTIDAD
+                                              END + TR_INVENTARIO.n_cant_teorica)) * (MA_COMPRAS_1.n_FACTORCAMBIO / MA_MONEDAS.n_factor))) AS TOTALCompra, 
+                                             - (1 * SUM(CASE TR_INVENTARIO.N_CANT_TEORICA WHEN TR_INVENTARIO.N_CANTIDAD THEN 0 ELSE TR_INVENTARIO.N_CANTIDAD END + TR_INVENTARIO.n_cant_teorica))
+                                              AS UnidadesCompra
+                       FROM         TR_INVENTARIO AS TR_INVENTARIO LEFT OUTER JOIN
+                                             MA_MONEDAS AS MA_MONEDAS ON MA_MONEDAS.c_codmoneda = '0000000002' INNER JOIN
+                                             MA_COMPRAS AS MA_COMPRAS_1 ON MA_COMPRAS_1.c_DOCUMENTO = TR_INVENTARIO.c_DOCUMENTO AND 
+                                             TR_INVENTARIO.c_CONCEPTO = MA_COMPRAS_1.C_CONCEPTO LEFT OUTER JOIN
+                                             MA_PRODUCTOS AS MA_PRODUCTOS_1 ON MA_PRODUCTOS_1.C_CODIGO = TR_INVENTARIO.c_CODARTICULO LEFT OUTER JOIN
+                                             MA_DEPARTAMENTOS AS MA_DEPARTAMENTOS_1 ON MA_PRODUCTOS_1.c_departamento = MA_DEPARTAMENTOS_1.C_CODIGO
+                       WHERE     (TR_INVENTARIO.c_CONCEPTO = 'DCM') AND (TR_INVENTARIO.f_fecha BETWEEN @FechaDesde AND @fechaHasta) AND 
+                                             (TR_INVENTARIO.c_codlocalidad = @Sucursal)
+                       GROUP BY MA_PRODUCTOS_1.c_departamento, MA_DEPARTAMENTOS_1.C_DESCRIPCIO) AS m
+GROUP BY c_departamento, C_DESCRIPCIO
+ORDER BY departamento</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="codigo_dpto">
+          <DataField>codigo_dpto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="departamento">
+          <DataField>departamento</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalCostoVenta">
+          <DataField>TotalCostoVenta</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="UTILIDAD">
+          <DataField>UTILIDAD</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="TotalVentasL">
+          <DataField>TotalVentasL</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="unidadesVenta">
+          <DataField>unidadesVenta</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="TOTALCompra">
+          <DataField>TOTALCompra</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="UnidadesCompra">
+          <DataField>UnidadesCompra</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="IndiceComVen">
+          <DataField>IndiceComVen</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="PorUtilidad">
+          <DataField>PorUtilidad</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DataSet_IndiceCompraInicial">
+      <Query>
+        <DataSourceName>VAD10</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@FechaDesde">
+            <Value>=Parameters!FechaDesde.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@Sucursal">
+            <Value>=Parameters!Sucursal.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT     c_departamento AS codigo_dpto, C_DESCRIPCIO AS departamento, SUM(CostoVenta) AS TotalCostoVenta, SUM(UTILIDAD) AS UTILIDAD, SUM(TotalVentasL) 
+                      AS TotalVentasL, SUM(unidadesVenta) AS unidadesVenta, SUM(TOTALCompra) AS TOTALCompra, SUM(UnidadesCompra) AS UnidadesCompra, CASE SUM(CostoVenta) 
+                      WHEN 0 THEN 0 ELSE SUM(TOTALCompra) / SUM(CostoVenta) END AS IndiceComVen, CASE SUM(TotalVentasL) WHEN 0 THEN 0 ELSE SUM(UTILIDAD) 
+                      / SUM(TotalVentasL) * 100 END AS PorUtilidad
+FROM         (SELECT     MA_PRODUCTOS.c_departamento, MA_DEPARTAMENTOS.C_DESCRIPCIO, SUM((TR_INVENTARIO.n_COSTO * TR_INVENTARIO.n_CANTIDAD) 
+                                              * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor)) AS CostoVenta, SUM(((TR_INVENTARIO.n_TOTAL - TR_INVENTARIO.n_IMPUESTO) 
+                                              - TR_INVENTARIO.n_COSTO * TR_INVENTARIO.n_CANTIDAD) * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor)) AS UTILIDAD, 
+                                              SUM((TR_INVENTARIO.n_TOTAL - TR_INVENTARIO.n_IMPUESTO) * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor)) AS TotalVentasL, 
+                                              SUM(TR_INVENTARIO.n_CANTIDAD) AS unidadesVenta, 0 AS TOTALCompra, 0 AS UnidadesCompra
+                       FROM          TR_INVENTARIO AS TR_INVENTARIO LEFT OUTER JOIN
+                                              MA_VENTAS AS MA_VENTAS ON MA_VENTAS.c_DOCUMENTO = TR_INVENTARIO.c_DOCUMENTO AND 
+                                              MA_VENTAS.c_CONCEPTO = TR_INVENTARIO.c_CONCEPTO LEFT OUTER JOIN
+                                              MA_MONEDAS AS MA_MONEDAS ON MA_MONEDAS.c_codmoneda = '0000000002' LEFT OUTER JOIN
+                                              MA_PRODUCTOS ON MA_PRODUCTOS.C_CODIGO = TR_INVENTARIO.c_CODARTICULO LEFT OUTER JOIN
+                                              MA_DEPARTAMENTOS ON MA_PRODUCTOS.c_departamento = MA_DEPARTAMENTOS.C_CODIGO
+                       WHERE      (TR_INVENTARIO.c_CONCEPTO = 'VEN') AND (TR_INVENTARIO.n_SUBTOTAL &gt;= 0) AND (TR_INVENTARIO.f_fecha BETWEEN DATEADD(m, - 1, 
+                                              @FechaDesde) AND DATEADD(d, - 1, @FechaDesde)) AND (TR_INVENTARIO.c_codlocalidad = @Sucursal)
+                       GROUP BY MA_PRODUCTOS.c_departamento, MA_DEPARTAMENTOS.C_DESCRIPCIO
+                       UNION
+                       SELECT     MA_PRODUCTOS_3.c_departamento, MA_DEPARTAMENTOS_3.C_DESCRIPCIO, - (1 * SUM((TR_INVENTARIO.n_COSTO * TR_INVENTARIO.n_CANTIDAD) 
+                                             * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor))) AS CostoVenta, - (1 * SUM(((TR_INVENTARIO.n_TOTAL - TR_INVENTARIO.n_IMPUESTO) 
+                                             - TR_INVENTARIO.n_COSTO * TR_INVENTARIO.n_CANTIDAD) * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor))) AS UTILIDAD, 
+                                             - (1 * SUM((TR_INVENTARIO.n_TOTAL - TR_INVENTARIO.n_IMPUESTO) * (MA_VENTAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor))) AS TotalVentasL, 
+                                             - (1 * SUM(TR_INVENTARIO.n_CANTIDAD)) AS unidadesVenta, 0 AS TOTALCompra, 0 AS UnidadesCompra
+                       FROM         TR_INVENTARIO AS TR_INVENTARIO LEFT OUTER JOIN
+                                             MA_VENTAS AS MA_VENTAS ON MA_VENTAS.c_DOCUMENTO = TR_INVENTARIO.c_DOCUMENTO AND 
+                                             MA_VENTAS.c_CONCEPTO = TR_INVENTARIO.c_CONCEPTO LEFT OUTER JOIN
+                                             MA_MONEDAS AS MA_MONEDAS ON MA_MONEDAS.c_codmoneda = '0000000002' LEFT OUTER JOIN
+                                             MA_PRODUCTOS AS MA_PRODUCTOS_3 ON MA_PRODUCTOS_3.C_CODIGO = TR_INVENTARIO.c_CODARTICULO LEFT OUTER JOIN
+                                             MA_DEPARTAMENTOS AS MA_DEPARTAMENTOS_3 ON MA_PRODUCTOS_3.c_departamento = MA_DEPARTAMENTOS_3.C_CODIGO
+                       WHERE     (TR_INVENTARIO.c_CONCEPTO = 'DEV') AND (TR_INVENTARIO.n_CANTIDAD &gt; 0) AND (TR_INVENTARIO.f_fecha BETWEEN DATEADD(m, - 1, @FechaDesde) 
+                                             AND DATEADD(d, - 1, @FechaDesde)) AND (TR_INVENTARIO.c_codlocalidad = @Sucursal)
+                       GROUP BY MA_PRODUCTOS_3.c_departamento, MA_DEPARTAMENTOS_3.C_DESCRIPCIO
+                       UNION
+                       SELECT     MA_PRODUCTOS_2.c_departamento, MA_DEPARTAMENTOS_2.C_DESCRIPCIO, 0 AS TotalCostoVenta, 0 AS utilidad, 0 AS totalventa, 0 AS UnidadesVenta, 
+                                             SUM((TR_INVENTARIO.n_COSTO * (CASE TR_INVENTARIO.N_CANT_TEORICA WHEN TR_INVENTARIO.N_CANTIDAD THEN 0 ELSE TR_INVENTARIO.N_CANTIDAD
+                                              END + TR_INVENTARIO.n_cant_teorica)) * (MA_COMPRAS.n_FACTORCAMBIO / MA_MONEDAS.n_factor)) AS TOTALCompra, 
+                                             SUM(CASE TR_INVENTARIO.N_CANT_TEORICA WHEN TR_INVENTARIO.N_CANTIDAD THEN 0 ELSE TR_INVENTARIO.N_CANTIDAD END + TR_INVENTARIO.n_cant_teorica)
+                                              AS UnidadesCompra
+                       FROM         TR_INVENTARIO AS TR_INVENTARIO LEFT OUTER JOIN
+                                             MA_MONEDAS AS MA_MONEDAS ON MA_MONEDAS.c_codmoneda = '0000000002' INNER JOIN
+                                             MA_COMPRAS ON MA_COMPRAS.c_DOCUMENTO = TR_INVENTARIO.c_DOCUMENTO AND 
+                                             TR_INVENTARIO.c_CONCEPTO = MA_COMPRAS.C_CONCEPTO LEFT OUTER JOIN
+                                             MA_PRODUCTOS AS MA_PRODUCTOS_2 ON MA_PRODUCTOS_2.C_CODIGO = TR_INVENTARIO.c_CODARTICULO LEFT OUTER JOIN
+                                             MA_DEPARTAMENTOS AS MA_DEPARTAMENTOS_2 ON MA_PRODUCTOS_2.c_departamento = MA_DEPARTAMENTOS_2.C_CODIGO
+                       WHERE     (TR_INVENTARIO.c_CONCEPTO = 'COM') AND (TR_INVENTARIO.f_fecha BETWEEN DATEADD(m, - 1, @FechaDesde) AND DATEADD(d, - 1, @FechaDesde)) 
+                                             AND (TR_INVENTARIO.c_codlocalidad = @Sucursal)
+                       GROUP BY MA_PRODUCTOS_2.c_departamento, MA_DEPARTAMENTOS_2.C_DESCRIPCIO
+                       UNION
+                       SELECT     MA_PRODUCTOS_1.c_departamento, MA_DEPARTAMENTOS_1.C_DESCRIPCIO, 0 AS TotalCostoVenta, 0 AS utilidad, 0 AS totalventa, 0 AS UnidadesVenta, 
+                                             - (1 * SUM((TR_INVENTARIO.n_COSTO * (CASE TR_INVENTARIO.N_CANT_TEORICA WHEN TR_INVENTARIO.N_CANTIDAD THEN 0 ELSE TR_INVENTARIO.N_CANTIDAD
+                                              END + TR_INVENTARIO.n_cant_teorica)) * (MA_COMPRAS_1.n_FACTORCAMBIO / MA_MONEDAS.n_factor))) AS TOTALCompra, 
+                                             - (1 * SUM(CASE TR_INVENTARIO.N_CANT_TEORICA WHEN TR_INVENTARIO.N_CANTIDAD THEN 0 ELSE TR_INVENTARIO.N_CANTIDAD END + TR_INVENTARIO.n_cant_teorica))
+                                              AS UnidadesCompra
+                       FROM         TR_INVENTARIO AS TR_INVENTARIO LEFT OUTER JOIN
+                                             MA_MONEDAS AS MA_MONEDAS ON MA_MONEDAS.c_codmoneda = '0000000002' INNER JOIN
+                                             MA_COMPRAS AS MA_COMPRAS_1 ON MA_COMPRAS_1.c_DOCUMENTO = TR_INVENTARIO.c_DOCUMENTO AND 
+                                             TR_INVENTARIO.c_CONCEPTO = MA_COMPRAS_1.C_CONCEPTO LEFT OUTER JOIN
+                                             MA_PRODUCTOS AS MA_PRODUCTOS_1 ON MA_PRODUCTOS_1.C_CODIGO = TR_INVENTARIO.c_CODARTICULO LEFT OUTER JOIN
+                                             MA_DEPARTAMENTOS AS MA_DEPARTAMENTOS_1 ON MA_PRODUCTOS_1.c_departamento = MA_DEPARTAMENTOS_1.C_CODIGO
+                       WHERE     (TR_INVENTARIO.c_CONCEPTO = 'DCM') AND (TR_INVENTARIO.f_fecha BETWEEN DATEADD(m, - 1, @FechaDesde) AND DATEADD(d, - 1, @FechaDesde)) 
+                                             AND (TR_INVENTARIO.c_codlocalidad = @Sucursal)
+                       GROUP BY MA_PRODUCTOS_1.c_departamento, MA_DEPARTAMENTOS_1.C_DESCRIPCIO) AS m
+GROUP BY c_departamento, C_DESCRIPCIO
+ORDER BY departamento</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="codigo_dpto">
+          <DataField>codigo_dpto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="departamento">
+          <DataField>departamento</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalCostoVenta">
+          <DataField>TotalCostoVenta</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="UTILIDAD">
+          <DataField>UTILIDAD</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="TotalVentasL">
+          <DataField>TotalVentasL</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="unidadesVenta">
+          <DataField>unidadesVenta</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="TOTALCompra">
+          <DataField>TOTALCompra</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="UnidadesCompra">
+          <DataField>UnidadesCompra</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="IndiceComVen">
+          <DataField>IndiceComVen</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="PorUtilidad">
+          <DataField>PorUtilidad</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="FechaDesde">
+      <DataType>DateTime</DataType>
+      <Prompt>Fecha Desde</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="fechaHasta">
+      <DataType>DateTime</DataType>
+      <Prompt>fecha Hasta</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Sucursal">
+      <DataType>String</DataType>
+      <Prompt>Sucursal</Prompt>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>DataSet_Sucursal</DataSetName>
+          <ValueField>codigo_sucursal</ValueField>
+          <LabelField>sucursal</LabelField>
+        </DataSetReference>
+      </ValidValues>
+    </ReportParameter>
+  </ReportParameters>
+  <Code>Public Function AggLookup(ByVal choice as String, ByVal items as Object)
+ 
+ 
+ If items is Nothing then
+  Return Nothing
+ End If
+ 
+ 
+ Dim current as Decimal
+ Dim sum as Decimal
+ Dim count as Integer
+ Dim min as Decimal
+ Dim max as Decimal
+ Dim err as String
+ 
+ 
+ current = 0 
+ sum = 0
+ count = 0
+ err = ""
+ 
+ 
+ For each item as Object in items
+ 
+  'Calculate count
+  count += 1
+ 
+  'Check value is a number
+  If IsNumeric(item) then
+ 
+   'Set current
+   current = Convert.ToDecimal(item)
+ 
+   'Calculate sum
+   sum += current
+ 
+   'Calculate min
+   If min = Nothing then
+    min = current
+   End If
+   If Min &gt;current then
+    min = current
+   End If
+ 
+   'Calculate max
+   If max = Nothing then
+    max = current
+   End If
+   If max &lt; current then
+    max = current
+   End If
+ 
+  'Return NaN if value is not a number
+  Else
+   err = "NaN"
+  End If
+ 
+ Next
+ 
+ 'Select and set output based on the user choice or choice passed by function
+ If err = "NaN" then
+  If choice = "count" then
+   Return count
+  Else
+   Return err
+  End If
+ Else
+  Select Case choice
+   Case "sum"
+    Return sum
+   Case "count"
+    Return count
+   Case "min"
+    Return min
+   Case "max"
+    Return max
+   Case "avg"
+    'Calculate the average avoiding divide by zero errors
+    If count &gt; 0 then
+     Return sum / count
+    Else
+     Return 0
+    End If
+  End Select
+ End If
+ 
+ End Function
+</Code>
+  <Variables>
+    <Variable Name="V_PA">
+      <Value>=CDec(DateDiff(DateInterval.Day,Parameters!FechaDesde.Value,Parameters!fechaHasta.Value)+1)</Value>
+    </Variable>
+    <Variable Name="GV_IR">
+      <Value>=(Sum(Fields!Valor_UC.Value, "DataSet_StockInicial")+Sum(Fields!Costo_Recepcion.Value, "DataSet_Compras")+Sum(Fields!Costo_Produccion.Value, "DataSet_Compras")-Sum(Fields!Costo_Dev_Compras.Value, "DataSet_Compras")-Sum(Fields!Valor_UC.Value, "DataSet_StockFinal"))/((Sum(Fields!Valor_UC.Value, "DataSet_StockInicial")+Sum(Fields!Valor_UC.Value, "DataSet_StockFinal"))/2)</Value>
+    </Variable>
+    <Variable Name="V_PAI">
+      <Value>=CDec(DateDiff(DateInterval.Day,DateAdd("m",-1,Parameters!FechaDesde.Value),DateAdd("d",-1,Parameters!FechaDesde.Value))+1)</Value>
+    </Variable>
+  </Variables>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>bbe707e4-054e-414a-90e2-3bdc32a45d0f</rd:ReportID>
+</Report>

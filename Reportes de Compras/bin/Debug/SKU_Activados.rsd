@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>VAD10_Prod</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@FechaDesde">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@FechaHasta">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>SELECT     d.C_DESCRIPCIO AS DEPARTAMENTO, p.C_CODIGO AS CODIGO_PRODUCTO, p.C_DESCRI AS PRODUCTO, 1 AS PRODUCTO_NUEVO
+FROM         MA_PRODUCTOS AS p INNER JOIN
+                      MA_DEPARTAMENTOS AS d ON d.C_CODIGO = p.c_departamento
+WHERE     (CONVERT(date, p.add_date) BETWEEN @FechaDesde AND @FechaHasta) AND (p.n_activo = 1)</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="DEPARTAMENTO">
+        <DataField>DEPARTAMENTO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CODIGO_PRODUCTO">
+        <DataField>CODIGO_PRODUCTO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="PRODUCTO">
+        <DataField>PRODUCTO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="PRODUCTO_NUEVO">
+        <DataField>PRODUCTO_NUEVO</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
